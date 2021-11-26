@@ -100,11 +100,10 @@
 
   after analyse end, run<br/>
   <code>mahout seqdumper -i /outPut/parallelcounting/part-r-00000 -o ~/retail_kmeans.txt</code>
-  ![image](https://user-images.githubusercontent.com/12046845/143595120-252ada93-1f26-4f21-8ed5-05be673fdce9.png)
 
   
 ### dataset
   the retail.dat in this repository.the data come from http://fimi.uantwerpen.be/data/.
 
 ### result
-![image](https://user-images.githubusercontent.com/12046845/143579289-accd8cf0-fe3a-4a42-b31a-4892ed2c33b8.png)
+![image](https://user-images.githubusercontent.com/12046845/143595120-252ada93-1f26-4f21-8ed5-05be673fdce9.png)
