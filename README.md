@@ -96,8 +96,12 @@
   ```shell
   hadoop jar /Users/chenren/mahout-0.9/mahout-examples-0.9-job.jar org.apache.mahout.fpm.pfpgrowth.FPGrowthDriver -i /testdata/retail.dat -o /outPut -method  mapreduce -s 1000 -regex '\\[\\]'
   ```
+  ![image](https://user-images.githubusercontent.com/12046845/143595026-2b745cfb-5555-4044-8717-941871c8da80.png)
+
   after analyse end, run<br/>
   <code>mahout seqdumper -i /outPut/parallelcounting/part-r-00000 -o ~/retail_kmeans.txt</code>
+  ![image](https://user-images.githubusercontent.com/12046845/143595120-252ada93-1f26-4f21-8ed5-05be673fdce9.png)
+
   
 ### dataset
   the retail.dat in this repository.the data come from http://fimi.uantwerpen.be/data/.
